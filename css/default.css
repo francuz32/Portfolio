@@ -1,3 +1,4 @@
+
 :root{
     --mainColor: #eaeaea;
     --secondaryColor: #fff;
@@ -407,7 +408,7 @@ img, #profile_pic{
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
     .intro-wrapper{
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -418,5 +419,17 @@ img, #profile_pic{
     }
     .right-column{
         justify-content: center;
+    }
+
+    .about-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    #skills{
+        width: fit-content;
+        margin-left: -100px;
     }
 }
