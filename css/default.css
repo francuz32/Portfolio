@@ -1,4 +1,5 @@
 
+
 :root{
     --mainColor: #eaeaea;
     --secondaryColor: #fff;
@@ -286,7 +287,8 @@ img, #profile_pic{
 .about-me{
     max-width: 40%;
     text-align:justify;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .info-container{
@@ -434,8 +436,11 @@ footer{
         width: 100%;
     }
 
+    .about-me{
+        max-width: 90%;
+    }
+
     #skills{
         width: fit-content;
-        margin-left: -100px;
     }
 }
